@@ -147,3 +147,49 @@ a {
  text-decoration: none;
  outline: none;
 }
+
+/* HEADER */
+header {
+  position: relative;
+  background-color: #fffdff;
+}
+
+header .wrapper {
+  width: 100%;
+  padding: 46px 0 63px;
+}
+
+h1 a { text-indent: -9999px; }
+h1 img { float: left; }
+.ham,
+.cross-nav { display: none; }
+
+h1 {
+  width: 14.82%;
+  position: absolute;
+  left: 50%;
+  top: 32px;
+  transform: translateX(-50%);
+}
+
+nav li {
+  display: inline-block;
+  margin-left: -5px;
+  margin-right: 25px;
+}
+
+nav li:first-child { margin-left: 22.08%; }
+nav li:last-child { margin: 0; }
+nav li:nth-child(4) { margin-left: 21.75%; }
+
+nav li a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #110f0a;
+  letter-spacing: -0.3px;
+  word-spacing: 1.2px;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
