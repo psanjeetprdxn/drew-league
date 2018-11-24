@@ -304,3 +304,99 @@ nav li a:hover {
 .stories .wrapper > span:hover {
   color: #125691;
 }
+
+/* FOOTER */
+
+footer {
+  padding: 118px 0 124px 0;
+  background-color: #000;
+}
+
+footer .wrapper {
+  display: flex;
+}
+
+footer figure {
+  width: 10.3%;
+  margin-right: 38px;
+}
+
+footer figure img {
+  width: 100%;
+}
+
+.about {
+  width: 11%;
+  margin-right: 20px;
+}
+
+.about li {
+  margin-bottom: 14px;
+}
+
+.about li a {
+  color: #eaf7f8;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.about li a:hover {
+  text-decoration: underline;
+}
+
+.follow {
+  width: 44%;
+}
+
+.follow h4 {
+  margin-bottom: 14px;
+  color: #eaf7f8;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.follow a {
+  display: inline-block;
+  font-size: 0;
+}
+
+.follow a::before {
+  content: "\f16d";
+  font-size: 23px;
+  color: #FDF9F3;
+}
+
+.follow a::before:hover {
+  color: #125691;
+}
+
+.follow li { margin-bottom: 24px; }
+.follow li:last-child { margin-bottom: 0; }
+.follow li:first-child a:first-child { margin-right: 8px; }
+.follow li:last-child  a:last-child { margin-bottom: 0; }
+
+.follow label {
+  color:
+}
+
+address {
+  width: 18%;
+  color: #70665d;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.brands {
+  width: 18%;
+}
+
+.brands li {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.brands li:last-child { margin-bottom: 0; }
+
+.brands li img {
+  width: 100%;
+}
