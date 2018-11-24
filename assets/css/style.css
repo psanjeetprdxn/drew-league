@@ -204,3 +204,25 @@ nav li a:hover {
   width: 100%;
   height: auto;
 }
+
+/* showcase */
+.showcase {
+  padding: 117px 0;
+}
+
+.highlights,
+.feature-story {
+  margin-left: -5px;
+  width: 45.488%;
+  display: inline-block;
+}
+
+.highlights { margin-right: 9.0239%; }
+.feature-story { margin-left: 0; }
+
+.showcase-title {
+  margin-bottom: 65px;
+  font-size: 43px;
+  font-weight: 800;
+  color: #86755b;
+}
