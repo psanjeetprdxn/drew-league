@@ -226,3 +226,81 @@ nav li a:hover {
   font-weight: 800;
   color: #86755b;
 }
+
+/* STORIES */
+.stories {
+  padding-bottom: 144px;
+  text-align: center;
+}
+
+.stories h2 {
+  margin-bottom: 64px;
+  color: #86755b;
+  font-size: 43px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.stories li {
+  width: 29%;
+  margin: 0 0 80px -5px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.stories-image-wrapper:hover {
+  -webkit-box-shadow: 6px 6px 20px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 20px 3px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 20px 3px rgba(0,0,0,0.75);
+}
+
+.stories li:nth-child(3n-1) { margin: 0 6.5%; }
+
+.stories-image-wrapper {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.stories-image-wrapper img {
+  width: 100%;
+}
+
+.stories li h3 {
+  margin-bottom: 10px;
+  color: #312936;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  word-spacing: 1.2px;
+}
+
+.stories li > span {
+  margin-bottom: 22px;
+  display: block;
+  color: #cbc8c9;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.stories li p {
+  color: #4b473e;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.stories .wrapper > span {
+  width: 28.36%;
+  margin: 0 auto;
+  padding: 25px 6.20%;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+  color: #e4e6e6;
+}
+
+.stories .wrapper > span:hover {
+  color: #125691;
+}
